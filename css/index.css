@@ -1,0 +1,272 @@
+.overlay {
+    opacity: .7;
+    position: absolute;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100vh; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+   
+  }
+
+
+/*************************** DEFAULTS ********************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 1.5;
+	
+    text-align: center;
+    background-color: grey;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;                   /* making images responsive */
+	height: auto;
+}
+
+/*********************************** PAGE1 2 3********************************/
+.page1{
+    /* width: 100%;
+	height: 100vh; */
+    background-image:url("/portfolio/fin.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent!important;
+    
+    
+}
+
+#fill{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+}
+.content1{
+    margin-bottom:0;
+    margin-top: 13em;
+}
+/* #about{
+    background-image: url("/portfolio/p3.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#aboutme{
+    background-color: white;
+}
+
+  
+  p{
+    color:#525252;
+    font-size:12px;
+  }
+  
+  .skillbar {
+      position:relative;
+      display:block;
+      margin-bottom:30px;
+      width:100%;
+      background:#eee;
+      height:15px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+  }
+  
+  .skillbar-title {
+      position:absolute;
+      top:0;
+      left:0;
+  width:110px;
+      font-weight:bold;
+      font-size:13px;
+      color:#ffffff;
+      background:#6adcfa;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:4px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-bar {
+      height:15px;
+      width:0px;
+      background:#6adcfa;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+  }
+  
+  .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:15px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:black;
+      font-style: initial;
+      font-weight: 900;
+  }
+  #knowledge{
+      background-image: url("/portfolio/p4.jpeg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100vh;
+  }
+  .skills{
+    padding-top: 200px;
+    font-size: 55px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+
+
+  }
+ #projects{
+     background-color: rgb(131, 129, 129);
+     background-attachment: fixed;
+     margin-bottom: 0px !important;
+ }
+ 
+.hover01 figure img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#experience{
+    background-image: url("/portfolio/b6.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px !important;
+   
+}
+/* -------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+  }
+  
+  .line-backdrop {
+    
+    position: relative;
+    width: 5px;
+    height: 70em;
+    background: #232323;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  /*   filter: drop-shadow(0px 0px 1px #999); */
+    border: 1px solid #000;
+  }
+  
+  .line {
+    position: absolute;
+    width: 3px;
+    height: 0px;
+    background: #34EF92;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all .2s ease-out;
+    filter: drop-shadow(0 0 8px #34EF92)
+  }
+  
+  .box {
+    top: 25%;
+    position: relative;
+    z-index: 999;
+    border: 1px solid #666;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #343443;
+  }
+  
+  .box:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    z-index: 9;
+    background: #666;
+  }
+  
+  .box:nth-child(even):before {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  
+  .box:nth-child(odd):before {
+    right: 0;
+    transform: translateX(100%);
+  }
+  
+  .box:nth-child(even) {
+    transform: translateX(calc(27px));
+  }
+  
+  .box:nth-child(odd) {
+    transform: translateX(calc(-100% - 24px));
+  }
+  
+  .box.active {
+    filter: drop-shadow(0 0 10px #454545);
+    border-color: #FFF;
+    color: #FFF;
+    background: #232334;
+  }
+  
+  .box.active:before {
+    background: #FFF;
+  }
