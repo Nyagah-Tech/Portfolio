@@ -64,6 +64,10 @@ img{
 } */
 #aboutme{
     background-color: white;
+    padding: 25px;
+    
+   
+
 }
 
   
@@ -76,9 +80,10 @@ img{
       position:relative;
       display:block;
       margin-bottom:30px;
+      
       width:100%;
       background:#eee;
-      height:15px;
+      height:20px;
       border-radius:3px;
       -moz-border-radius:3px;
       -webkit-border-radius:3px;
@@ -126,7 +131,7 @@ img{
   }
   
   .skillbar-bar {
-      height:15px;
+      height:20px;
       width:0px;
       background:#6adcfa;
       border-radius:3px;
@@ -135,23 +140,19 @@ img{
   }
   
   .skill-bar-percent {
-      position:absolute;
-      right:10px;
-      top:0;
-      font-size:15px;
-      height:35px;
-      line-height:35px;
+      
+      font-size:18px;
+     
       color:#ffffff;
-      color:black;
+      
       font-style: initial;
-      font-weight: 900;
   }
   #knowledge{
       background-image: url("/portfolio/p4.jpeg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
-      height: 100vh;
+      height: 1100px;
   }
   .skills{
     padding-top: 200px;
@@ -225,11 +226,12 @@ img{
     position: relative;
     z-index: 999;
     border: 1px solid #666;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    height: 400px;
+    font-size: 17px;
+    color: white;
+  
+   
     background: #343443;
   }
   
